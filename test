@@ -1,0 +1,4 @@
+app=`ls -1t |grep -e "\.go$" | head -n 1|awk '{print $NF}'`
+echo "run: $app\n"
+gobin=`which go`
+GOPATH=`pwd` $gobin run $app
