@@ -1,0 +1,11 @@
+{
+	"ImportPath": "wuxin",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "xx.org/dep",
+			"Rev": "45f1c7004af053ba04f4e19e112b26792c3ba68f"
+		}
+	]
+}
